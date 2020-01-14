@@ -22,8 +22,8 @@ from argparse import ArgumentParser
 
 import pytorch_lightning as pl
 
-from bytorch import MomentumWithThresholdBinaryOptimizer
-from bytorch import BinaryLinear, BinaryConv2d
+from research_seed.bytorch import MomentumWithThresholdBinaryOptimizer
+from research_seed.bytorch import BinaryLinear, BinaryConv2d
 
 train_val_transform = transforms.Compose(
     [
